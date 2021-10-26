@@ -1,0 +1,31 @@
+package numericData;
+
+class Exercise2 {
+
+	public static void main(String[] args) {
+		
+		String name = "Nurul Azurin Binti Tokiman";
+		String noMatric = "MS2011100289";
+		String session = "2020/2021";
+		String program = "Science Module II";
+		String college = "Kolej Matrikulasi Melaka";
+		double GPA1 = 3.42;
+		double GPA2 = 3.25;
+		double CGPA;
+		
+		
+		CGPA = (3.42 + 3.25)/2;
+		
+		System.out.println("Academic Transcrpit");
+		System.out.println("\nName : " + name);
+		System.out.println("No matric :  " + noMatric);
+		System.out.println("Session : " + session);
+		System.out.println("Programme : " + program);
+		System.out.println("College : " + college);
+		System.out.println("GPA semester 1 : " + GPA1);
+		System.out.println("GPA semester 2 : " + GPA2);
+		System.out.printf("CGPA : %.2f " , CGPA);
+
+	}
+
+}
